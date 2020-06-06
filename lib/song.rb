@@ -49,7 +49,7 @@ class Song
   end
 
   def self.create_by_filename
-    path = "/path/to/xyz.mp4"
+    path = "/path/to/xyz.mp3"
     song.save
   end
 
