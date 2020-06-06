@@ -6,6 +6,7 @@ class Song
     person = self.new
     person.name = name
     @@all << person
+  end
 
   def self.all
     @@all
