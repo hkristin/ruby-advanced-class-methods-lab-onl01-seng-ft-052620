@@ -45,13 +45,14 @@ class Song
   end
   
   def self.new_from_filename
-end
+  
+  end
 
-def self.create_by_filename
+  def self.create_by_filename
 
-end
+  end
 
-def self.destroy_all
+  def self.destroy_all
   self.all.clear
   end
-  end
+end
