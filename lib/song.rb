@@ -45,11 +45,12 @@ class Song
   end
   
   def self.new_from_filename
+  song = self.create
   
-  end
+  song.name = song_nameend
 
   def self.create_by_filename
-    path = "/path/to/xyz.mp3"
+
     song.save
   end
 
