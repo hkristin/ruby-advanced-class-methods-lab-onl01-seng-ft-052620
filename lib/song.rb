@@ -20,9 +20,12 @@ class Song
     song = self.new
     song.name = song_name
     song
-    
   end
   
+  def self.create_by_name("Blank Space")
+    song = self.create
+    song.name  song_name
+    song
   
 
 end
