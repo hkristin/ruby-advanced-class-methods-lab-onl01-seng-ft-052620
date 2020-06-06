@@ -32,5 +32,12 @@ class Song
   song = self.find(" ")
   return song_name
   end
+  
+  def self.find_or_create_by_name(song_name)
+    if song_name = self.new
+      return song_name
+    else self.new << song_name
+  end
+  end
 
 end
